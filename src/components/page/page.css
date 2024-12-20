@@ -1,0 +1,261 @@
+
+.nav{
+    background-color: blue;
+    text-align: center;
+    font-size: xx-large;
+}
+.main{
+    display: flex;
+    border: 1px solid black;
+    /* padding-bottom: 622px; */
+    justify-content:space-around;
+    margin: 0;
+
+}
+.trend{
+border-right: 1px solid black;
+/* padding-right:110px;
+padding-left: 50px; */
+padding-top: 15px;
+text-align: center;
+/* padding-bottom: 40%; */
+margin: 0;
+width: 30%;
+display: flex;
+flex-direction: column;
+/* justify-content: unset; */
+align-items: center;  
+
+} 
+.post{
+background-color: #f1f1f1;
+border-right: 1px solid black;
+/* padding-right: 10px;
+padding-left: 10px;  */
+text-align: center;
+padding-top: 10px;
+max-height: 670px;  
+overflow-y: auto;  
+border: 1px solid #ddd;  
+padding: 15px;  
+margin: 0;
+width: 100%;
+}
+.yu{
+/* padding-bottom: 40%; */
+padding-right: 40px;
+text-align: center;
+padding-top: 15px;
+/* align-items: center; */
+padding-left: 50px;
+margin: 0;
+}
+
+.trend-content {
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    justify-content: space-between;
+    
+}
+.trend-item {
+    display: flex;
+    align-items: center;  
+    gap: 10px; 
+    padding-top: 10px;
+}
+
+.trend-item h3 {
+    margin: 0; 
+    font-size: 18px; 
+    color: #333;
+}
+ 
+.post-content {
+    display: inline-flex;           
+    /* align-items:start;   */
+    gap: 2px;    
+    margin: 0;
+   padding-right: 0;
+  }
+  
+  .post-image {
+    width: 50px;              
+    height: 50px;             
+    object-fit: cover;
+    border-radius: 50%;  
+    margin-left: -380px; 
+    /* margin: 0; */
+  }
+  .post-container{
+    border: 3px solid white;  
+    background-color: #f1f1f1;
+    padding-top: 5px;
+    /* padding-bottom: 5px; */
+  }
+  .poster{
+    object-fit: cover;
+    height:500px;
+    width: 850px; 
+  }
+  .poster2{
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+  }
+  .post-content p {
+    font-size: 20px;          
+    margin: 0; 
+    padding-top: 10px; 
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;       
+  }
+  .yu-content {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+}
+.yu-item {
+    display: flex;
+    /* align-items: center;  */
+    gap: 10px; 
+    padding-top: 10px;
+    margin: 0;
+   
+}
+.yu-item h3 {
+    margin: 0; 
+    font-size: 18px; 
+    color: #333;
+}
+.yu-image{
+    height: 220px;
+    width:240px;
+}
+.icon{
+    display: flex;
+   align-self: auto;
+   gap:10px;
+   padding-left: 10px;
+}
+
+.popup-content {
+  text-align: center;
+  padding: 20px;
+  position: relative; /* To control positioning */
+  padding: 10px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  border-radius: 10px;
+
+}
+.popup-cont{
+  position:fixed;
+  width: 40%;
+  bottom: 390px;
+  right: 60%;
+}
+.popup-image {
+  width: 100%;                                                                                                  
+  height: auto;
+  margin: 10px 0;
+}
+
+.popup-poster {
+  width: 60%;
+  height: auto;
+  margin: 10px 0;
+}
+
+.cancel-btn {
+  background-color: #ff5733;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  /* display: flex; */
+  /* flex-direction:column; */
+  /* gap: 15px; */
+  /* width:100px; */
+}
+
+.cancel-btn:hover {
+  background-color: #e14c2b;
+}
+/* Nav styles */
+.nav {
+  display: flex;
+  gap:15px;
+  /* justify-content: space-between; */
+  align-items: center;
+ justify-content: center;
+  background-color: #333;
+  /* padding: 10px 20px; */
+  color: white;
+  padding-right: 38%;
+}
+
+.popup-btn {
+  background-color: #41ff33;
+  color: white;
+  padding: 5px; 
+  width: 11%;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  /* border-radius: 5px; */
+  /* transition: background-color 0.3s; */
+}
+
+.popup-btn:hover {
+  background-color: #48e828;
+}
+#message{
+  width: 70%;
+}
+.profile{
+  margin-right: 60%;
+ justify-items: start;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ display: flex;
+ gap: 10px;
+
+}
+.profile-btn{
+  width: 70px;
+  margin-right: 230px;
+  padding: 0;
+}
+/* .pro{
+  width: 30%;
+  position: relative;
+  bottom: 300px;
+} */
+/* Style for the "My Profile" button */
+.pro {
+  padding: 8px 16px;
+  font-size: 12px;  /* Smaller size for the button */
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pro:hover {
+  background-color: #45a049;
+}
+.pop{
+  position: relative;
+  left: 75px;
+  height: 45px;
+  width: 100px;
+  background-color: #ddd;
+}
+.poppro{
+  position: absolute;
+  left: 10px;
+  top:5px;
+}
