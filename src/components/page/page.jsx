@@ -124,7 +124,7 @@ const goToProfilePage = () => {
     //     <ClipLoader color={color} loading = {loading} css={override} size={50}/>
     //   ) : (
     
-    <div>
+    <div className="web">
       <nav className="nav">
       <div className="profile">
       <button onClick={togglePopup} className="profile-btn">Open Popup</button> 

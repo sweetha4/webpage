@@ -12,7 +12,8 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: rgb(193, 141, 150);
+    background: rgb(146, 145, 145);
+    padding-top: 14%;
 }
 code{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

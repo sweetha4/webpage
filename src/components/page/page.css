@@ -1,4 +1,6 @@
-
+.web{
+  margin-top: -14.2%;
+}
 .nav{
     background-color: blue;
     text-align: center;
@@ -9,8 +11,6 @@
     border: 1px solid black;
     /* padding-bottom: 622px; */
     justify-content:space-around;
-    margin: 0;
-
 }
 .trend{
 border-right: 1px solid black;
